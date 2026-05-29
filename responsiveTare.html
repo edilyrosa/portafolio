@@ -28,6 +28,14 @@
         [] atributos */
  
     </style> -->
+
+    <!-- <style>
+        #test-display{
+            /* display:none; */
+            color:red
+        }
+    </style> -->
+
 </head>
 <!-- <body class="font-['Poppins'] max-[400px]:text-red-600"> -->
 <body class="font-['Poppins']">
@@ -71,7 +79,7 @@
             <span class="text-sm min-[400px]:text-lg md:text-2xl">
             Soluciones innovadoras en software
             </span>
-           <button class="bg-blue-800 p-2 rounded-md hover:bg-blue-500">
+           <button id="test-display" class="bg-blue-800 p-2 rounded-md hover:bg-blue-500">
                <a href="#contactame"> Contactame </a>
             </button>
         </div>
@@ -194,6 +202,7 @@
         <!-- * Contactame  -->
         <section class="pt-[20vh] bg-gray-100 min-h-screen" id="contactame"> 
             <h2 class="text-blue-900 font-bold text-center md:text-2xl lg:text-3xl">CONTACTAME!</h2> 
+            <!-- formspree.io → edilyrosa@gmail.com -->
             <form 
                 class="bg-blue-200 max-w-[70%] mx-auto mt-8 rounded-lg p-6"
                 id="contact-form" 
@@ -210,7 +219,7 @@
                             name="name"
                         class="w-full rounded py-2 px-4 focus:outline-none border border-gray-400 focus:ring focus:ring-blue-300"
                         >
-                        <span id="name-error" class=" mt-1 text-red-500 text-[8px] block text-center mx-auto bg-yellow-100 hidden">El nombre solo debe contener letras.</span>
+                        <span id="name-error" class=" mt-1 text-red-500 text-base block text-center mx-auto bg-yellow-100 hidden ">El nombre solo debe contener letras.</span>
                 </div>
 
                 <div>
@@ -293,6 +302,7 @@
         alert("Bienvenido a mi portafolio profesional! Soy Edily Mora, una desarrolladora de software apasionada por crear soluciones tecnológicas modernas, eficientes y adaptadas a las necesidades de cada cliente. En este portafolio encontrarás una visión detallada de mi trayectoria profesional, una lista de los servicios que ofrezco y ejemplos de proyectos que he realizado. ¡Gracias por visitar mi portafolio!");
     </script> -->
     <script src="scriptForm.js"></script>
+    <!-- <script src="procesamientoForm.js"></script> -->
 </body>
 </html>
  
